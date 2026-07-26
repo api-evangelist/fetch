@@ -1,8 +1,14 @@
 aid: fetch
 name: Fetch
-description: 'Fetch is a company surfaced as a portfolio company of iconiq-capital, softbank-vision-fund
-  and added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Fetch (formerly Fetch Rewards) is a consumer rewards and loyalty platform
+  that lets shoppers earn points by scanning receipts and shopping at more than 600
+  partner brands in-store and online, playing mobile games, and redeeming offers,
+  then exchange those points for gift cards to retailers such as Amazon, Target, and
+  Uber. Its Fetch for Business arm turns verified purchase data into full-funnel brand
+  engagement, consumer spending insights, and campaign tooling (including the Fetch
+  Ad Manager) for CPG, retail, restaurant, and agency partners. Fetch is a private,
+  venture-backed company; it operates a consumer mobile app plus a Chrome extension
+  and does not publish a public developer API.'
 url: https://raw.githubusercontent.com/api-evangelist/fetch/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +17,31 @@ x-backed-by:
 - softbank-vision-fund
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://fetch.com/assets/images/share-images/fetch-com-share-image.jpg
 tags:
 - Company
 - Consumer
+- Rewards
+- Loyalty
+- Shopping
+- Receipts
+- Mobile App
+- Advertising
+- CPG
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,4 +50,33 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.fetchrewards.com/
+  url: https://www.fetch.com/
+- type: Blog
+  url: https://www.fetch.com/blog
+- type: HelpCenter
+  url: https://help.fetch.com/hc/en-us
+- type: Support
+  url: https://help.fetch.com/hc/en-us
+- type: Careers
+  url: https://www.fetch.com/careers
+- type: TermsOfService
+  url: https://www.fetch.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.fetch.com/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/fetch-rewards
+- type: SecurityTxt
+  url: well-known/fetch-security.txt
+- type: WellKnown
+  url: well-known/fetch-well-known.yml
+- type: VulnerabilityDisclosure
+  url: security/fetch-vulnerability-disclosure.yml
+- type: Security
+  url: https://hackerone.com/fetchrewards_vdp
+- type: DomainSecurity
+  url: security/fetch-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
