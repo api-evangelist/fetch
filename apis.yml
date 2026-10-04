@@ -52,6 +52,16 @@ tags:
 - Receipts
 - Mobile App
 - Advertising
+- Consumer Packaged Goods
+tags_raw:
+- Company
+- Consumer
+- Rewards
+- Loyalty
+- Shopping
+- Receipts
+- Mobile App
+- Advertising
 - CPG
 apis: []
 maintainers:
@@ -91,3 +101,4 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-former-name: Fetch Rewards
